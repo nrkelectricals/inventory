@@ -37,7 +37,7 @@ function login() {
       document.getElementById("content").style.display = "block";
       fetchExcelData();
     },
-    redirect_uri: "https://nrkelectricals.github.io/inventory/",
+    redirect_uri: "https://nrkelectricals.github.io/inventory",
   });
   tokenClient.requestAccessToken();
 }
